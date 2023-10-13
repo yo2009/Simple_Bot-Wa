@@ -49,7 +49,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ### `BASE UTILIZADA PARA EL BOT`
-<a href="https://github.com/FG98F/dylux-fg" target="blank"><img src="https://img.shields.io/badge/FzTeis-25D366?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/FG98F/dylux-fg" target="blank"><img src="https://img.shields.io/badge/Dylux_Bot-25D366?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 
 `Simple_Bot-Wa _ By FzTeis`
