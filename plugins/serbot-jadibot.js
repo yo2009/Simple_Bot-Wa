@@ -4,7 +4,7 @@ Si intentas adaptar este codigo a otro bot, Probablemente no funcione :P
 */
 
 
-const { MessageType, useMultiFileAuthState, DisconnectReason, Browsers } = await import("@adiwajshing/baileys")
+const { MessageType, useMultiFileAuthState, DisconnectReason, Browsers } = await import("@whiskeysockets/baileys")
 import qrcode from "qrcode"
 import fs from "fs"
 import P from 'pino';
