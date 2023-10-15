@@ -1,5 +1,5 @@
 { 
-    "name": "dylux-bot",
+    "name": "simple-bot",
     "version": "3.0.0",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -20,27 +20,27 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "dylux-bot",
-        "dylux-bot-md",
+        "simple-bot",
+        "simple-bot-md",
         "multi-device",
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/FG98F/dylux-fg",
+    "homepage": "https://github.com/FzTeis/Simple_Bot-Wa",
     "author": {
-        "name": "FG98"
+        "name": "FzTeis"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/FG98F/dylux-bot.git"
+        "url": "git+https://github.com/FzTeis/Simple_Bot-Wa.git"
     },
     "bugs": {
-        "url": "https://github.com/FG98F/dylux-bot/issues"
+        "url": "https://github.com/FzTeis/Simple_Bot-Wa/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@whiskeysockets/baileys": "^6.4.0",
-        "@adiwajshing/baileys": "npm:baileys@^6.0.9",
+        "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",
+        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "^4.2.3",
         "awesome-phonenumber": "^3.4.0",
