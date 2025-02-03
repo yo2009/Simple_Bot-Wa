@@ -15,7 +15,7 @@ let q = isVideo ? '360p' : '128kbps'
   let v = vid.url
   let yt = await youtubedl(v).catch(async () => await youtubedlv2(v))
   let dl_url = await (isVideo ? yt.video[q].download() : yt.audio[q].download())
-  let title = await yt.title
+  let titles = await yt.title
   
 let { title, description, thumbnail, videoId, timestamp, views, ago, url } = vid    
 let texto1 = `
