@@ -38,7 +38,7 @@ export async function handler(chatUpdate) {
         try {
             // TODO: use loop to insert data instead of this
             //let user = global.db.data.users[m.sender]
-
+global.db.data.chats[m.chat][m.sender] = global.db.data.chats[m.chat][m.sender] || {}
 
 let user = global.db.data.chats[m.chat][m.sender]
             if (typeof user !== 'object')
