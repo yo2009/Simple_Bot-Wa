@@ -37,7 +37,10 @@ export async function handler(chatUpdate) {
         m.diamond = false
         try {
             // TODO: use loop to insert data instead of this
-            let user = global.db.data.users[m.sender]
+            //let user = global.db.data.users[m.sender]
+
+
+let user = global.db.data.chats[m.chat][m.sender]
             if (typeof user !== 'object')
                 global.db.data.users[m.sender] = {}
             if (user) {
@@ -76,7 +79,7 @@ export async function handler(chatUpdate) {
                 if (!('chatbot' in user))
                     user.chatbot = false
             } else
-                global.db.data.users[m.sender] = {
+                global.db.data.chats[m.chat][m.sender] = {
                     exp: 0,
                     diamond: 10,
                     lastclaim: 0,
