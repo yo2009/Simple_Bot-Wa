@@ -41,7 +41,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 
 handler.command = ['menu', 'help', 'menú', 'commands', 'comandos', '?']
-handler.register = true
 export default handler
 
 function ucapan() {
