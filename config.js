@@ -32,7 +32,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM & prefijo
-global.prefijo = "%";
+global.prefijo = "§";
 global.packname = '☪️┊Simple | Wa Bot  ͙۪▩⃟⁩ 🎋'
 global.wm = '⚕️┊Simple | Wa Bot  ͙۪▩⃟⁩ 🌾'
 global.author = '©FzTeis'
