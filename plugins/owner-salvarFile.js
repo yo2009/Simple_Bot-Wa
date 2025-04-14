@@ -6,7 +6,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
     await fs.writeFileSync(path, m.quoted.text)
     m.reply(`Guardado en ${path}`)
 }
-handler.help = ['saveplugin'].map(v => v + ' *<nombre>*')
+handler.help = ['saveplugin']
 handler.tags = ['owner']
 handler.command = ["salvar", "plugin"]
 
