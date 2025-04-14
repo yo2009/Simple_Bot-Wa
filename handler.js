@@ -434,7 +434,7 @@ let pp = this.profilePictureUrl(m.sender, "image")
 this.sendFile(id, action === 'add' ? pp : pp, 'pp.jpg', text, null, false, { mentions: [user] })
                     }
                 }
-            }
+            
             break
         case 'promote':
             text = (chat.sPromote || this.spromote || conn.spromote || '@user ahora es administrador')
