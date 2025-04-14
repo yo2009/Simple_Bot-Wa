@@ -31,7 +31,8 @@ global.APIKeys = { // APIKey Here
   'https://api-fgmods.ddns.net': 'TU-APIKEY' //Regístrese en https://api-fgmods.ddns.net/
 }
 
-// Sticker WM
+// Sticker WM & prefijo
+global.prefijo = "%";
 global.packname = '☪️┊Simple | Wa Bot  ͙۪▩⃟⁩ 🎋'
 global.wm = '⚕️┊Simple | Wa Bot  ͙۪▩⃟⁩ 🌾'
 global.author = '©FzTeis'
