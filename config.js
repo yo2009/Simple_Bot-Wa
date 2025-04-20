@@ -53,8 +53,8 @@ global.fetch = fetch;
 global.axios = axios;
 global.moment = moment;
 //############
-global.simpleSession = `Sesion/Sesion By | FzTeis`
-global.dbSimple = `Sesion/database.json`
+global.simpleSession = `Data/Sesiones/Principal`
+global.dbSimple = `Data/database.json`
 
 //Tiempo del bot
 global.d = new Date(new Date + 3600000)
